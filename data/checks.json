@@ -20,8 +20,8 @@
     "countryCode": "PG",
     "status": "not_comparable",
     "reviewPaperId": "jacobs-2019",
-    "claim": "Jacobs et al. 2019 find that Papuans carry ancestry from at least two deeply divergent Denisovan groups.",
-    "comparison": "That paper is about which Denisovan sources are present. It is not used here as a replacement total percentage for Papua New Guinea."
+    "claim": "Jacobs et al. 2019 find that Papuans carry ancestry from at least two deeply divergent Denisovan groups, and they report about 32.3 Mb of high-confidence Denisovan sequence per genome copy.",
+    "comparison": "The 32.3 Mb is detected sequence, not a new total percentage. The conclusion's 'around 4%' describes the known Papuan contribution and is not averaged into the Papua New Guinea figure."
   },
   {
     "id": "au-internal-agreement",
@@ -37,7 +37,7 @@
     "status": "agrees",
     "reviewPaperId": "reich-2011",
     "claim": "Reich et al. 2011 find no significant Denisovan signal in western Indonesians, and they report Nusa Tenggara and Moluccas groups at 0.40 and 0.35 times the New Guinea proportion.",
-    "comparison": "Indonesia has no country color. Western Indonesian, Nusa Tenggara, and Moluccas rows stay separate, and none of them is converted from a New Guinea ratio into a percentage. The New Guinea absolute percentages are not copied onto Indonesia."
+    "comparison": "Indonesia has no country color. Western Indonesian, Nusa Tenggara, and Moluccas rows stay separate, and none of them is converted from a New Guinea ratio into a percentage. The New Guinea absolute percentages are not copied onto Indonesia. Jacobs et al. 2019 add detected sequence lengths for East and West Island Southeast Asia. Those lengths are listed and are not turned into a country percentage."
   },
   {
     "id": "ph-no-invented-five-percent",

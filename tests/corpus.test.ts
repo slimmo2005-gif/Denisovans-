@@ -55,6 +55,15 @@ describe("published corpus", () => {
     for (const code of ["ID", "PH", "CN", "FJ"]) {
       expect(summarizeCountry(code, corpus.estimates).headline).toBeNull();
     }
+    const indonesia = summarizeCountry("ID", corpus.estimates);
+    const jacobs = indonesia.excluded
+      .map((row) => row.estimate.id)
+      .filter((id) => id.startsWith("jacobs-2019"));
+    expect(jacobs.sort()).toEqual([
+      "jacobs-2019-east-isea",
+      "jacobs-2019-sulawesi",
+      "jacobs-2019-west-isea",
+    ]);
   });
 
   it("keeps a discrepancy from changing the primary number", () => {
