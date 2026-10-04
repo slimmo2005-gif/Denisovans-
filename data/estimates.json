@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "reich-2010-melanesians",
+    "paperId": "reich-2010",
+    "population": "Melanesians (Papuan and Bougainville)",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 4.8,
+    "uncertainty": {
+      "se": 0.5
+    },
+    "method": "Derived-allele sharing against Neanderthal and Denisovan genomes",
+    "archaicReference": "Denisova 3",
+    "sampleGroup": "reich-lab-melanesian",
+    "preferred": false,
+    "locator": "Main text: Denisovan gene flow into the ancestors of Melanesians",
+    "notes": "4.8 ± 0.5% of Melanesian genomes. The abstract also says 4–6%. The sequenced Melanesian genomes are two Papuans and one Bougainville islander. Meyer et al. 2012 is the preferred estimate for this Reich-lab comparison because it uses the high-coverage Denisovan genome and models Neanderthal admixture."
+  },
+  {
+    "id": "meyer-2012-papuan",
+    "paperId": "meyer-2012",
+    "population": "Papuan",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 1,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 3,
+    "uncertainty": {
+      "se": 0.8
+    },
+    "method": "Estimate incorporating Neanderthal admixture",
+    "archaicReference": "Denisova 3 high-coverage genome",
+    "sampleGroup": "reich-lab-melanesian",
+    "preferred": true,
+    "locator": "Main text",
+    "notes": "3.0 ± 0.8% for the Papuan in the panel of 11 present-day genomes. This is the paper's estimate that incorporates Neanderthal admixture. The HGDP Papuan is a New Guinea highland sample, so the row is assigned to Papua New Guinea and not to Indonesia."
+  },
+  {
+    "id": "meyer-2012-papuan-treemix",
+    "paperId": "meyer-2012",
+    "population": "Papuan",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 1,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 6,
+    "method": "TreeMix",
+    "archaicReference": "Denisova 3 high-coverage genome",
+    "sampleGroup": "reich-lab-melanesian",
+    "preferred": false,
+    "locator": "Main text and Fig. 3",
+    "notes": "TreeMix gives 6.0%. The paper says this fit does not model Neanderthal admixture, so it is not the preferred estimate for the same Papuan genome."
+  },
+  {
+    "id": "meyer-2012-dai",
+    "paperId": "meyer-2012",
+    "population": "Dai",
+    "countryCodes": [
+      "CN"
+    ],
+    "sampleSize": 1,
+    "kind": "population_mean",
+    "statistic": "upper_bound_percent",
+    "value": 0.1,
+    "method": "Enhanced D statistics",
+    "archaicReference": "Denisova 3 high-coverage genome",
+    "sampleGroup": "meyer-2012-dai",
+    "preferred": false,
+    "locator": "Main text, table S26",
+    "notes": "If Denisovans contributed any DNA to the Dai, it is less than 0.1% of their genomes. This is an upper bound for that Dai genome, not a percentage for China."
+  },
+  {
+    "id": "malaspinas-2016-australians",
+    "paperId": "malaspinas-2016",
+    "population": "Aboriginal Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": 83,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 4,
+    "uncertainty": {
+      "ci95": [
+        3.3,
+        5
+      ]
+    },
+    "method": "Site-frequency spectrum, with Denisovan admixture constrained to before the Aboriginal Australian–Papuan split",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "malaspinas-2016-sahul",
+    "preferred": true,
+    "locator": "Main text and Fig. 4; Supplementary Information section S07",
+    "notes": "About 4.0% (95% CI 3.3–5.0%) from 83 Aboriginal Australian genomes. The estimate is the shared ancestral pulse, not a mean of 83 individually published percentages. The paper's D-statistic figure of about 5% is stored separately and is not averaged again."
+  },
+  {
+    "id": "malaspinas-2016-australians-d",
+    "paperId": "malaspinas-2016",
+    "population": "Aboriginal Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": 83,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 5,
+    "method": "D statistics",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "malaspinas-2016-sahul",
+    "preferred": false,
+    "locator": "Main text; Supplementary Information section S09",
+    "notes": "The paper describes the D-statistic result as about 5%, without a standard error in the main text. Same study and same ancestral model as the 4.0% site-frequency estimate."
+  },
+  {
+    "id": "malaspinas-2016-papuans",
+    "paperId": "malaspinas-2016",
+    "population": "Highland Papuans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 25,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 4,
+    "uncertainty": {
+      "ci95": [
+        3.3,
+        5
+      ]
+    },
+    "method": "Site-frequency spectrum, with Denisovan admixture constrained to before the Aboriginal Australian–Papuan split",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "malaspinas-2016-sahul",
+    "preferred": true,
+    "locator": "Main text and Fig. 4; Supplementary Information section S07",
+    "notes": "The same 4.0% ancestral estimate, reported from a model that includes the 25 Highland Papuan genomes sequenced in this study. The paper finds no significant difference in putative Denisovan-derived haplotype counts between putatively unadmixed Aboriginal Australians and Papuans. The percentage is not copied onto Indonesia."
+  },
+  {
+    "id": "malaspinas-2016-papuans-d",
+    "paperId": "malaspinas-2016",
+    "population": "Highland Papuans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 25,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 5,
+    "method": "D statistics",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "malaspinas-2016-sahul",
+    "preferred": false,
+    "locator": "Main text; Supplementary Information section S09",
+    "notes": "The paper's about-5% D-statistic description of the same Australo-Papuan pulse. Not a second sample."
+  },
+  {
+    "id": "qin-2015-australians",
+    "paperId": "qin-2015",
+    "population": "Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 3.4,
+    "uncertainty": {
+      "se": 0.2
+    },
+    "method": "PD statistic",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "qin-2015-australians",
+    "preferred": true,
+    "locator": "Fig. 3A",
+    "notes": "PD = 0.034 ± 0.002. The discussion rounds the New Guinea and Australian level to about 3.5%. The main text does not state the Australian sample size, so this row is shown and is not weighted."
+  },
+  {
+    "id": "qin-2015-new-guineans",
+    "paperId": "qin-2015",
+    "population": "New Guineans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": 3.4,
+    "uncertainty": {
+      "se": 0.5
+    },
+    "method": "PD statistic",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "qin-2015-new-guineans",
+    "preferred": true,
+    "locator": "Fig. 3A",
+    "notes": "PD = 0.034 ± 0.005. Sample size for this population is not stated in the main text, so the row is not weighted. It is not assigned to every New Guinea population outside Papua New Guinea."
+  },
+  {
+    "id": "qin-2015-bougainville",
+    "paperId": "qin-2015",
+    "population": "Bougainville",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "lower_bound_percent",
+    "value": 3,
+    "method": "PD statistic",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "qin-2015-bougainville",
+    "preferred": false,
+    "locator": "Main text",
+    "notes": "The paper reports high amounts, greater than 3%, of Denisovan ancestry in Bougainville. A bound is not entered as the country's percentage."
+  },
+  {
+    "id": "qin-2015-east-eurasia",
+    "paperId": "qin-2015",
+    "population": "East Eurasian and Native American populations",
+    "countryCodes": [],
+    "region": "East Eurasia and the Americas",
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "modeled_absolute_percent",
+    "value": null,
+    "valueMin": 0.13,
+    "valueMax": 0.17,
+    "method": "Oceanian percentage multiplied by a previously published ratio",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "qin-2015-eena",
+    "preferred": false,
+    "locator": "Discussion",
+    "notes": "The paper multiplies its approximate 3.5% Oceanian estimate by an earlier statement that Denisovan-related ancestry in these populations is 3.8–4.8% of the Oceanian amount. The 0.13–0.17% range is that product. It is not applied to any country."
+  },
+  {
+    "id": "vernot-2016-bismarck",
+    "paperId": "vernot-2016",
+    "population": "Bismarck Archipelago Melanesians",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 27,
+    "kind": "population_mean",
+    "statistic": "absolute_percent",
+    "value": null,
+    "valueMin": 1.9,
+    "valueMax": 3.4,
+    "method": "f4 admixture proportions",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "vernot-2016-bismarck",
+    "preferred": false,
+    "locator": "Fig. 1D and table S4",
+    "notes": "Admixture proportions across 11 Bismarck Archipelago locations vary from 1.9% to 3.4%. Thirty-five people were sequenced and 27 unrelated people were analyzed. Table S4 holds the location values; no midpoint is used here."
+  },
+  {
+    "id": "sankararaman-2016-papuans",
+    "paperId": "sankararaman-2016",
+    "population": "Papuans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 1.12,
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-papuans",
+    "preferred": false,
+    "locator": "Table S3",
+    "notes": "1.12% of the genome is in confidently called Denisovan tracts. The paper treats this as a detected fraction, lower than total-ancestry estimates such as Reich et al. 2010. It is not averaged with those percentages."
+  },
+  {
+    "id": "sankararaman-2016-sherpa",
+    "paperId": "sankararaman-2016",
+    "population": "Sherpas",
+    "countryCodes": [
+      "NP"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.1,
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-sherpa",
+    "preferred": false,
+    "locator": "Table S3 and main text",
+    "notes": "0.10%, the highest South Asian point estimate in this paper, including after chromosome 2 is removed. Sherpa communities also live in Tibet; the row is not applied to China because the paper names Sherpas."
+  },
+  {
+    "id": "sankararaman-2016-oceania",
+    "paperId": "sankararaman-2016",
+    "population": "Oceania",
+    "countryCodes": [],
+    "region": "Oceania",
+    "sampleSize": 26,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.85,
+    "uncertainty": {
+      "se": 0.43
+    },
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-oceania",
+    "preferred": false,
+    "locator": "Table 1",
+    "notes": "Regional pool, 0.85 ± 0.43% of the autosomes in confidently inferred Denisovan ancestry. Not assigned to each Oceanian country."
+  },
+  {
+    "id": "sankararaman-2016-east-asia",
+    "paperId": "sankararaman-2016",
+    "population": "East Asia",
+    "countryCodes": [],
+    "region": "East Asia",
+    "sampleSize": 50,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.06,
+    "uncertainty": {
+      "se": 0.02
+    },
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-east-asia",
+    "preferred": false,
+    "locator": "Table 1",
+    "notes": "Regional pool of confidently inferred tracts, 0.06 ± 0.02%. Not a percentage for China or any other one country, and not total ancestry."
+  },
+  {
+    "id": "sankararaman-2016-south-asia",
+    "paperId": "sankararaman-2016",
+    "population": "South Asia",
+    "countryCodes": [],
+    "region": "South Asia",
+    "sampleSize": 48,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.06,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-south-asia",
+    "preferred": false,
+    "locator": "Table 1",
+    "notes": "Regional pool, 0.06 ± 0.03%. The Sherpa point estimate is stored separately."
+  },
+  {
+    "id": "sankararaman-2016-west-eurasia",
+    "paperId": "sankararaman-2016",
+    "population": "West Eurasia",
+    "countryCodes": [],
+    "region": "West Eurasia",
+    "sampleSize": 77,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.02,
+    "uncertainty": {
+      "se": 0.01
+    },
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-west-eurasia",
+    "preferred": false,
+    "locator": "Table 1",
+    "notes": "Regional pool of confidently inferred tracts, 0.02 ± 0.01%. Not entered as zero, and not used to color Europe."
+  },
+  {
+    "id": "sankararaman-2016-central-asia",
+    "paperId": "sankararaman-2016",
+    "population": "Central Asia",
+    "countryCodes": [],
+    "region": "Central Asia",
+    "sampleSize": 27,
+    "kind": "population_mean",
+    "statistic": "detected_tract_percent",
+    "value": 0.05,
+    "uncertainty": {
+      "se": 0.01
+    },
+    "method": "Confidently inferred Denisovan haplotypes",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "sankararaman-2016-central-asia",
+    "preferred": false,
+    "locator": "Table 1",
+    "notes": "Regional pool, 0.05 ± 0.01% confidently inferred Denisovan ancestry. Not assigned to one country."
+  },
+  {
+    "id": "larena-2021-ayta-sequence",
+    "paperId": "larena-2021",
+    "population": "Ayta Magbukon",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": 5,
+    "kind": "population_mean",
+    "statistic": "detected_megabases",
+    "value": 51.94,
+    "uncertainty": {
+      "ci95": [
+        44.62,
+        59.25
+      ]
+    },
+    "method": "S' detected Denisovan sequence",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "larena-2021-ayta-sequence",
+    "preferred": false,
+    "locator": "Main text and Figs. 4D and S6C",
+    "notes": "Mean detected Denisovan sequence per person, 51.94 Mb (95% CI 44.62–59.25), from five high-coverage genomes. The paper says this is at least about 24% more detected sequence than in the Papuans in the same analysis. Megabases are not converted into a genome percentage here."
+  },
+  {
+    "id": "larena-2021-ayta-relative",
+    "paperId": "larena-2021",
+    "population": "Ayta Magbukon",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": 5,
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "value": null,
+    "valueMin": 34,
+    "valueMax": 40,
+    "method": "f4-ratio",
+    "archaicReference": "Denisovan",
+    "referencePopulation": "Australians or Papuans",
+    "sampleGroup": "larena-2021-ayta-f4",
+    "preferred": false,
+    "locator": "Fig. 4B",
+    "notes": "f4-ratio estimates are 34–40% higher than those for Australians or Papuans. That is a relative difference. The paper does not state the living Ayta Magbukon absolute percentage in the main text."
+  },
+  {
+    "id": "larena-2021-ancestral-negrito",
+    "paperId": "larena-2021",
+    "population": "Ancestral Philippine Negritos, extrapolated",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "modeled_absolute_percent",
+    "value": 4.47,
+    "method": "f4-ratio extrapolated to no East Asian admixture",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "larena-2021-ancestral",
+    "preferred": false,
+    "locator": "Fig. 3D",
+    "notes": "f4-ratio = 0.0447 for an extrapolated unadmixed ancestral Negrito population, described as 46% higher than Papuans. Living Ayta Magbukon have recent East Asian admixture, so this is not their percentage."
+  },
+  {
+    "id": "larena-2021-papuan-sequence",
+    "paperId": "larena-2021",
+    "population": "Papuans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "detected_megabases",
+    "value": 41.96,
+    "uncertainty": {
+      "ci95": [
+        39.54,
+        44.37
+      ]
+    },
+    "method": "S' detected Denisovan sequence",
+    "archaicReference": "Altai Denisovan",
+    "sampleGroup": "larena-2021-papuan-sequence",
+    "preferred": false,
+    "locator": "Main text",
+    "notes": "41.96 Mb (95% CI 39.54–44.37) of detected Denisovan sequence per Papuan in the comparison with Ayta Magbukon. The Papuan sample size for this mean is not stated in that sentence."
+  },
+  {
+    "id": "teixeira-2021-papuans",
+    "paperId": "teixeira-2021",
+    "population": "Papuans",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "detected_megabases",
+    "value": 60,
+    "method": "Detected archaic sequence length",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "teixeira-2021-papuans",
+    "preferred": false,
+    "locator": "Main text",
+    "notes": "Detected Denisovan sequence reaching about 60 Mb in Papuan genomes. The paper does not give this as a percentage, and this site does not divide it by genome length."
+  },
+  {
+    "id": "teixeira-2021-australians",
+    "paperId": "teixeira-2021",
+    "population": "Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": null,
+    "kind": "population_mean",
+    "statistic": "detected_megabases",
+    "value": 60,
+    "method": "Detected archaic sequence length",
+    "archaicReference": "Denisovan",
+    "sampleGroup": "teixeira-2021-australians",
+    "preferred": false,
+    "locator": "Main text",
+    "notes": "Detected Denisovan sequence reaching about 60 Mb in Australian genomes. Not converted to a percentage."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-highlanders",
+    "id": "reich-2011-highlanders",
+    "population": "New Guinea highlanders",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 24,
+    "value": 1,
+    "uncertainty": {
+      "se": 0
+    },
+    "notes": "Reference population in this paper. pD is 1 by definition, which means 100% of the New Guinea proportion, not a measured percentage of the genome."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-australians",
+    "id": "reich-2011-australians",
+    "population": "Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": 10,
+    "value": 1.03,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "1.03 ± 0.06 times the New Guinea proportion. The pooled sample is Northern Territories (n = 8) plus a cell-line panel whose sampling location is unknown (n = 2)."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-northern-territories",
+    "id": "reich-2011-northern-territories",
+    "population": "Northern Territories Aboriginal Australians",
+    "countryCodes": [
+      "AU"
+    ],
+    "sampleSize": 8,
+    "value": 1.03,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Subgroup of the Australian sample."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-fijians",
+    "id": "reich-2011-fijians",
+    "population": "Fijians",
+    "countryCodes": [
+      "FJ"
+    ],
+    "sampleSize": 25,
+    "value": 0.56,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "0.56 ± 0.03 times the New Guinea proportion."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-nusa-tenggara",
+    "id": "reich-2011-nusa-tenggara",
+    "population": "Nusa Tenggara islanders",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 10,
+    "value": 0.4,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Pooled southeastern Indonesian sample: 0.40 ± 0.03 times the New Guinea proportion."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-alor",
+    "id": "reich-2011-alor",
+    "population": "Alor",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 2,
+    "value": 0.51,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Nusa Tenggara subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-flores",
+    "id": "reich-2011-flores",
+    "population": "Flores",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 1,
+    "value": 0.4,
+    "uncertainty": {
+      "se": 0.08
+    },
+    "notes": "Nusa Tenggara subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-roti",
+    "id": "reich-2011-roti",
+    "population": "Roti",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 4,
+    "value": 0.27,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Nusa Tenggara subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-timor",
+    "id": "reich-2011-timor",
+    "population": "Timor",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 3,
+    "value": 0.5,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "The paper places this sample in the Indonesian Nusa Tenggaras. It is not assigned to Timor-Leste."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-philippines",
+    "id": "reich-2011-philippines",
+    "population": "Philippines, pooled",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": 27,
+    "value": 0.28,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Pooled Philippine sample. Mamanwa and Manobo are also stored separately."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-mamanwa",
+    "id": "reich-2011-mamanwa",
+    "population": "Mamanwa",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": 11,
+    "value": 0.49,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Philippine Negrito group."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-manobo",
+    "id": "reich-2011-manobo",
+    "population": "Manobo",
+    "countryCodes": [
+      "PH"
+    ],
+    "sampleSize": 16,
+    "value": 0.13,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Philippine group."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-moluccas",
+    "id": "reich-2011-moluccas",
+    "population": "Moluccas islanders",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 10,
+    "value": 0.35,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Eastern Indonesian sample, 0.35 ± 0.04 times the New Guinea proportion."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-hiri",
+    "id": "reich-2011-hiri",
+    "population": "Hiri",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 7,
+    "value": 0.35,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Moluccas subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-ternate",
+    "id": "reich-2011-ternate",
+    "population": "Ternate",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 3,
+    "value": 0.36,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Moluccas subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-polynesia",
+    "id": "reich-2011-polynesia",
+    "population": "Polynesians",
+    "countryCodes": [],
+    "region": "Polynesia",
+    "sampleSize": 19,
+    "value": 0.2,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Table 1 gives 20% ± 4% of the New Guinea proportion for the pooled Polynesian sample. One sentence in the paper writes 0.020; the table is the figure used here. Island samples are stored on their own countries."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-cook",
+    "id": "reich-2011-cook",
+    "population": "Cook Islands",
+    "countryCodes": [
+      "CK"
+    ],
+    "sampleSize": 2,
+    "value": 0.16,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Polynesian subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-futuna",
+    "id": "reich-2011-futuna",
+    "population": "Futuna",
+    "countryCodes": [
+      "WF"
+    ],
+    "sampleSize": 4,
+    "value": 0.28,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Polynesian subgroup, Wallis and Futuna."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-niue",
+    "id": "reich-2011-niue",
+    "population": "Niue",
+    "countryCodes": [
+      "NU"
+    ],
+    "sampleSize": 1,
+    "value": 0.27,
+    "uncertainty": {
+      "se": 0.08
+    },
+    "notes": "Polynesian subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-samoa",
+    "id": "reich-2011-samoa",
+    "population": "Samoa",
+    "countryCodes": [
+      "WS"
+    ],
+    "sampleSize": 5,
+    "value": 0.13,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Polynesian subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-tokelau",
+    "id": "reich-2011-tokelau",
+    "population": "Tokelau",
+    "countryCodes": [
+      "TK"
+    ],
+    "sampleSize": 2,
+    "value": 0.22,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Polynesian subgroup. Tokelau is smaller than the country polygons on this map."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-tonga",
+    "id": "reich-2011-tonga",
+    "population": "Tonga",
+    "countryCodes": [
+      "TO"
+    ],
+    "sampleSize": 2,
+    "value": 0.17,
+    "uncertainty": {
+      "se": 0.07
+    },
+    "notes": "Polynesian subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-tuvalu",
+    "id": "reich-2011-tuvalu",
+    "population": "Tuvalu",
+    "countryCodes": [
+      "TV"
+    ],
+    "sampleSize": 3,
+    "value": 0.21,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Polynesian subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-onge",
+    "id": "reich-2011-onge",
+    "population": "Onge",
+    "countryCodes": [
+      "IN"
+    ],
+    "sampleSize": 10,
+    "value": 0.1,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Andamanese group. Z = 1.6. The paper places Onge among groups whose pD is within two standard errors of zero."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-taiwan",
+    "id": "reich-2011-taiwan",
+    "population": "Taiwanese Indigenous peoples, pooled",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 12,
+    "value": 0.04,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Pooled Indigenous Taiwanese sample."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-puyuma",
+    "id": "reich-2011-puyuma",
+    "population": "Puyuma",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": 0.04,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Taiwanese Indigenous subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-rukai",
+    "id": "reich-2011-rukai",
+    "population": "Rukai",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": 0,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Taiwanese Indigenous subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-paiwan",
+    "id": "reich-2011-paiwan",
+    "population": "Paiwan",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": 0.05,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Taiwanese Indigenous subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-atayal",
+    "id": "reich-2011-atayal",
+    "population": "Atayal",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": -0.05,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Taiwanese Indigenous subgroup. A negative ratio is a statistical fluctuation around zero, not negative ancestry."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-bunun",
+    "id": "reich-2011-bunun",
+    "population": "Bunun",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": 0.12,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Taiwanese Indigenous subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-pingpu",
+    "id": "reich-2011-pingpu",
+    "population": "Pingpu",
+    "countryCodes": [
+      "TW"
+    ],
+    "sampleSize": 2,
+    "value": 0.07,
+    "uncertainty": {
+      "se": 0.06
+    },
+    "notes": "Taiwanese Indigenous subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-malaysia",
+    "id": "reich-2011-malaysia",
+    "population": "Malaysia, pooled",
+    "countryCodes": [
+      "MY"
+    ],
+    "sampleSize": 18,
+    "value": 0.05,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Pooled sample. Jehai and Temuan are stored separately."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-jehai",
+    "id": "reich-2011-jehai",
+    "population": "Jehai",
+    "countryCodes": [
+      "MY"
+    ],
+    "sampleSize": 8,
+    "value": 0.07,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Peninsula Negrito group. The paper places Jehai among groups whose pD is within two standard errors of zero."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-temuan",
+    "id": "reich-2011-temuan",
+    "population": "Temuan",
+    "countryCodes": [
+      "MY"
+    ],
+    "sampleSize": 10,
+    "value": 0.03,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Peninsula group."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-sumatra",
+    "id": "reich-2011-sumatra",
+    "population": "Sumatra",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 17,
+    "value": 0.04,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Western Indonesia. The paper finds pD within two standard errors of zero for western Indonesians."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-besemah",
+    "id": "reich-2011-besemah",
+    "population": "Besemah",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 8,
+    "value": 0.05,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Sumatra subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-semende",
+    "id": "reich-2011-semende",
+    "population": "Semende",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 9,
+    "value": 0.03,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Sumatra subgroup."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-borneo",
+    "id": "reich-2011-borneo",
+    "population": "Borneo, pooled",
+    "countryCodes": [],
+    "region": "Borneo",
+    "sampleSize": 49,
+    "value": 0.01,
+    "uncertainty": {
+      "se": 0.02
+    },
+    "notes": "Pooled Borneo sample from more than one country. Not applied to Indonesia or Malaysia as a whole. Within two standard errors of zero."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-bidayuh",
+    "id": "reich-2011-bidayuh",
+    "population": "Bidayuh",
+    "countryCodes": [
+      "MY"
+    ],
+    "sampleSize": 10,
+    "value": 0.06,
+    "uncertainty": {
+      "se": 0.04
+    },
+    "notes": "Sarawak, in the paper's Borneo grouping."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-barito",
+    "id": "reich-2011-barito",
+    "population": "Barito River",
+    "countryCodes": [
+      "ID"
+    ],
+    "sampleSize": 23,
+    "value": 0,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Kalimantan, in the paper's Borneo grouping."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-land-dayak",
+    "id": "reich-2011-land-dayak",
+    "population": "Land Dayak",
+    "countryCodes": [
+      "MY"
+    ],
+    "sampleSize": 16,
+    "value": 0,
+    "uncertainty": {
+      "se": 0.03
+    },
+    "notes": "Grouped by the paper under Borneo and associated here with Sarawak Land Dayak communities."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 1",
+    "sampleGroup": "reich-2011-dravidian",
+    "id": "reich-2011-dravidian",
+    "population": "Dravidian, southern India",
+    "countryCodes": [
+      "IN"
+    ],
+    "sampleSize": 12,
+    "value": -0.07,
+    "uncertainty": {
+      "se": 0.05
+    },
+    "notes": "Z = -1.5. Not significantly different from zero on this relative scale."
+  },
+  {
+    "paperId": "reich-2011",
+    "kind": "population_mean",
+    "statistic": "relative_to_reference",
+    "method": "pD(X), a ratio of f4 statistics",
+    "archaicReference": "Denisova",
+    "referencePopulation": "New Guinea highlanders",
+    "preferred": false,
+    "locator": "Table 2",
+    "sampleGroup": "reich-2011-bougainville",
+    "id": "reich-2011-bougainville",
+    "population": "Bougainville",
+    "countryCodes": [
+      "PG"
+    ],
+    "sampleSize": 1,
+    "value": 0.83,
+    "uncertainty": {
+      "se": 0.1
+    },
+    "notes": "Sequencing estimate for HGDP00491, 0.83 ± 0.10 times the New Guinea proportion. The genotyping estimate in the same table is 0.82 ± 0.05."
+  }
+]

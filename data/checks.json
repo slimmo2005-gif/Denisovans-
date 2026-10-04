@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pg-versus-reich-five-percent",
+    "countryCode": "PG",
+    "status": "discrepancy",
+    "reviewPaperId": "browning-2018",
+    "claim": "Browning et al. 2018 say that people in Oceania inherited about 5% of their genome from Denisovans, citing Reich et al. 2010.",
+    "comparison": "The Papua New Guinea figure on this map is the sample-size-weighted mean of Meyer et al. 2012 (3.0% ± 0.8, one Papuan genome, the preferred estimate for the Reich-lab comparison) and Malaspinas et al. 2016 (4.0%, 25 Highland Papuan genomes). That weighted figure is about 3.96%. Reich et al. 2010's 4.8% ± 0.5 is the same broad comparison as Meyer and is shown, not entered a second time. About 5% matches Reich. It does not match the weighted figure. The difference is which primary estimate is preferred, not a replaced number."
+  },
+  {
+    "id": "pg-versus-detected-tracts",
+    "countryCode": "PG",
+    "status": "not_comparable",
+    "reviewPaperId": "sankararaman-2016",
+    "claim": "Sankararaman et al. 2016 report 1.12% Denisovan ancestry in Papuans and 0.85% ± 0.43% in a regional Oceanian pool.",
+    "comparison": "Those figures are the fraction of the genome in confidently inferred Denisovan haplotypes. They are lower than total-ancestry estimates and are listed on the panel without being averaged into the country color."
+  },
+  {
+    "id": "pg-jacobs-lineages",
+    "countryCode": "PG",
+    "status": "not_comparable",
+    "reviewPaperId": "jacobs-2019",
+    "claim": "Jacobs et al. 2019 find that Papuans carry ancestry from at least two deeply divergent Denisovan groups.",
+    "comparison": "That paper is about which Denisovan sources are present. It is not used here as a replacement total percentage for Papua New Guinea."
+  },
+  {
+    "id": "au-internal-agreement",
+    "countryCode": "AU",
+    "status": "agrees",
+    "reviewPaperId": "malaspinas-2016",
+    "claim": "Malaspinas et al. 2016 report about 4.0% Denisovan ancestry (95% CI 3.3–5.0%) and describe a D-statistic estimate of about 5%. Qin and Stoneking 2015 report 3.4% ± 0.2% for Australians.",
+    "comparison": "The country figure is the Malaspinas site-frequency estimate, 4.0%, weighted by 83 genomes. The same paper's about-5% D-statistic is inside the published interval and is the same sample, so it is not averaged again. Qin's 3.4% sits inside that interval and is shown, but the main text does not give a sample size, so it is not weighted."
+  },
+  {
+    "id": "id-separated-from-new-guinea",
+    "countryCode": "ID",
+    "status": "agrees",
+    "reviewPaperId": "reich-2011",
+    "claim": "Reich et al. 2011 find no significant Denisovan signal in western Indonesians, and they report Nusa Tenggara and Moluccas groups at 0.40 and 0.35 times the New Guinea proportion.",
+    "comparison": "Indonesia has no country color. Western Indonesian, Nusa Tenggara, and Moluccas rows stay separate, and none of them is converted from a New Guinea ratio into a percentage. The New Guinea absolute percentages are not copied onto Indonesia."
+  },
+  {
+    "id": "ph-no-invented-five-percent",
+    "countryCode": "PH",
+    "status": "not_comparable",
+    "reviewPaperId": "larena-2021",
+    "claim": "Secondary accounts sometimes say Ayta Magbukon people have about 5% Denisovan ancestry.",
+    "comparison": "Larena et al. 2021 do not state that figure for living Ayta Magbukon in the main text. They report an f4-ratio 34–40% higher than Australians or Papuans, 51.94 Mb of detected Denisovan sequence in five genomes, and an extrapolated ancestral f4-ratio of 0.0447. The Philippines stays uncolored. Reich et al. 2011 ratios for Mamanwa and Manobo are listed and are not turned into percentages."
+  },
+  {
+    "id": "cn-not-colored-from-a-bound",
+    "countryCode": "CN",
+    "status": "agrees",
+    "reviewPaperId": "meyer-2012",
+    "claim": "Meyer et al. 2012 say that any Denisovan contribution to the Dai is less than 0.1% of the genome. Sankararaman et al. 2016 report 0.06% ± 0.02% confidently inferred Denisovan ancestry in a regional East Asian pool.",
+    "comparison": "China has no country color. The Dai result is an upper bound on one population, and the East Asian result is a regional detected-tract percentage. Neither is used as a percentage for China."
+  },
+  {
+    "id": "fj-ratio-not-percent",
+    "countryCode": "FJ",
+    "status": "agrees",
+    "reviewPaperId": "reich-2011",
+    "claim": "Reich et al. 2011 estimate Fijians at 0.56 ± 0.03 times the New Guinea Denisovan proportion.",
+    "comparison": "Fiji is not colored. The ratio is shown and is not multiplied by a New Guinea percentage."
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Denisovan atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;560;650&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <p>Primary papers only</p>
+          <h1>Denisovan atlas</h1>
+        </div>
+        <div class="toggles">
+          <label><input id="show-ancestry" type="checkbox" checked /> Ancestry</label>
+          <label><input id="show-fossils" type="checkbox" checked /> Fossils</label>
+          <label><input class="grade-toggle" type="checkbox" value="confirmed" checked /> Confirmed</label>
+          <label><input class="grade-toggle" type="checkbox" value="likely" checked /> Likely</label>
+          <label><input class="grade-toggle" type="checkbox" value="possible" checked /> Possible</label>
+          <button id="close-panel" class="text-button" type="button">About this map</button>
+        </div>
+        <nav class="nav">
+          <a href="./index.html" aria-current="page">Map</a>
+          <a href="./method.html">Method</a>
+        </nav>
+      </header>
+      <div class="workspace">
+        <div id="map"></div>
+        <aside id="panel"></aside>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "denisova-cave",
+    "name": "Denisova Cave",
+    "place": "Altai Mountains, Russia",
+    "countryCode": "RU",
+    "lat": 51.397583,
+    "lng": 84.676194,
+    "coordinateNote": "51°23′51.3″N, 84°40′34.3″E, as given for the cave in the supplementary information of the 2019 Denisova Cave chronology."
+  },
+  {
+    "id": "baishiya",
+    "name": "Baishiya Karst Cave",
+    "place": "Xiahe County, Gansu, China",
+    "countryCode": "CN",
+    "lat": 35.45,
+    "lng": 102.57,
+    "coordinateNote": "35.45°N, 102.57°E, the cave location given by Xia et al. 2024. Elevation about 3,280 m."
+  },
+  {
+    "id": "penghu-channel",
+    "name": "Penghu Channel",
+    "place": "Taiwan Strait",
+    "countryCode": "TW",
+    "lat": 23.3,
+    "lng": 119.7,
+    "coordinateNote": "Approximate. Penghu 1 was dredged from the Penghu submarine channel about 25 km off western Taiwan, from 60–120 m depth (Chang et al. 2015). Tsutaya et al. 2025 give the latitude as 23°N. There is no excavation coordinate."
+  },
+  {
+    "id": "harbin",
+    "name": "Harbin",
+    "place": "Harbin, Heilongjiang, China",
+    "countryCode": "CN",
+    "lat": 45.75,
+    "lng": 126.63,
+    "coordinateNote": "The cranium is attributed to river deposits at Harbin. This marker is the Harbin locality, not a surveyed cave. Ni et al. 2021 describe the discovery during bridge construction on the Songhua River."
+  },
+  {
+    "id": "bianfu",
+    "name": "Bianfu Cave",
+    "place": "Heqing County, Yunnan, China",
+    "countryCode": "CN",
+    "lat": 26.462125,
+    "lng": 100.165403,
+    "coordinateNote": "26°27′43.65″N, 100°09′55.45″E, the cave coordinates in Rao et al. 2026."
+  },
+  {
+    "id": "tam-ngu-hao-2",
+    "name": "Tam Ngu Hao 2",
+    "place": "Huà Pan Province, Laos",
+    "countryCode": "LA",
+    "lat": 20.211528,
+    "lng": 103.408944,
+    "coordinateNote": "20°12′41.5″N, 103°24′32.2″E, the cave coordinates in Demeter et al. 2022. Also called Cobra Cave."
+  },
+  {
+    "id": "xujiayao",
+    "name": "Xujiayao",
+    "place": "Houjiayao, Nihewan Basin, China",
+    "countryCode": "CN",
+    "lat": 40.100556,
+    "lng": 113.9775,
+    "coordinateNote": "40°06′02″N, 113°58′39″E, the locality coordinates reported for Locality 74093."
+  },
+  {
+    "id": "xuchang",
+    "name": "Lingjing, Xuchang",
+    "place": "Xuchang, Henan, China",
+    "countryCode": "CN",
+    "lat": 34.066667,
+    "lng": 113.683333,
+    "coordinateNote": "34°04′N, 113°41′E, the Lingjing site coordinates reported in the paleoenvironmental description of the locality."
+  }
+]

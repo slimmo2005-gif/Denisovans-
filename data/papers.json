@@ -1,0 +1,236 @@
+[
+  {
+    "id": "reich-2010",
+    "citation": "Reich et al. 2010",
+    "year": 2010,
+    "title": "Genetic history of an archaic hominin group from Denisova Cave in Siberia",
+    "doi": "10.1038/nature09710",
+    "url": "https://doi.org/10.1038/nature09710",
+    "role": "primary"
+  },
+  {
+    "id": "reich-2011",
+    "citation": "Reich et al. 2011",
+    "year": 2011,
+    "title": "Denisova admixture and the first modern human dispersals into Southeast Asia and Oceania",
+    "doi": "10.1016/j.ajhg.2011.09.005",
+    "url": "https://doi.org/10.1016/j.ajhg.2011.09.005",
+    "role": "primary"
+  },
+  {
+    "id": "meyer-2012",
+    "citation": "Meyer et al. 2012",
+    "year": 2012,
+    "title": "A high-coverage genome sequence from an archaic Denisovan individual",
+    "doi": "10.1126/science.1224344",
+    "url": "https://doi.org/10.1126/science.1224344",
+    "role": "primary"
+  },
+  {
+    "id": "qin-2015",
+    "citation": "Qin and Stoneking 2015",
+    "year": 2015,
+    "title": "Denisovan ancestry in East Eurasian and Native American populations",
+    "doi": "10.1093/molbev/msv141",
+    "url": "https://doi.org/10.1093/molbev/msv141",
+    "role": "primary"
+  },
+  {
+    "id": "sawyer-2015",
+    "citation": "Sawyer et al. 2015",
+    "year": 2015,
+    "title": "Nuclear and mitochondrial DNA sequences from two Denisovan individuals",
+    "doi": "10.1073/pnas.1519905112",
+    "url": "https://doi.org/10.1073/pnas.1519905112",
+    "role": "primary"
+  },
+  {
+    "id": "chang-2015",
+    "citation": "Chang et al. 2015",
+    "year": 2015,
+    "title": "The first archaic Homo from Taiwan",
+    "doi": "10.1038/ncomms7037",
+    "url": "https://doi.org/10.1038/ncomms7037",
+    "role": "primary"
+  },
+  {
+    "id": "sankararaman-2016",
+    "citation": "Sankararaman et al. 2016",
+    "year": 2016,
+    "title": "The combined landscape of Denisovan and Neanderthal ancestry in present-day humans",
+    "doi": "10.1016/j.cub.2016.03.037",
+    "url": "https://doi.org/10.1016/j.cub.2016.03.037",
+    "role": "primary"
+  },
+  {
+    "id": "malaspinas-2016",
+    "citation": "Malaspinas et al. 2016",
+    "year": 2016,
+    "title": "A genomic history of Aboriginal Australia",
+    "doi": "10.1038/nature18299",
+    "url": "https://doi.org/10.1038/nature18299",
+    "role": "primary"
+  },
+  {
+    "id": "vernot-2016",
+    "citation": "Vernot et al. 2016",
+    "year": 2016,
+    "title": "Excavating Neandertal and Denisovan DNA from the genomes of Melanesian individuals",
+    "doi": "10.1126/science.aad9416",
+    "url": "https://doi.org/10.1126/science.aad9416",
+    "role": "primary"
+  },
+  {
+    "id": "li-2017",
+    "citation": "Li et al. 2017",
+    "year": 2017,
+    "title": "Late Pleistocene archaic human crania from Xuchang, China",
+    "doi": "10.1126/science.aal2482",
+    "url": "https://doi.org/10.1126/science.aal2482",
+    "role": "primary"
+  },
+  {
+    "id": "slon-2017-denisova2",
+    "citation": "Slon et al. 2017",
+    "year": 2017,
+    "title": "A fourth Denisovan individual",
+    "doi": "10.1126/sciadv.1700186",
+    "url": "https://doi.org/10.1126/sciadv.1700186",
+    "role": "primary"
+  },
+  {
+    "id": "slon-2017-sediment",
+    "citation": "Slon et al. 2017",
+    "year": 2017,
+    "title": "Neandertal and Denisovan DNA from Pleistocene sediments",
+    "doi": "10.1126/science.aam9695",
+    "url": "https://doi.org/10.1126/science.aam9695",
+    "role": "primary"
+  },
+  {
+    "id": "slon-2018",
+    "citation": "Slon et al. 2018",
+    "year": 2018,
+    "title": "The genome of the offspring of a Neanderthal mother and a Denisovan father",
+    "doi": "10.1038/s41586-018-0455-x",
+    "url": "https://doi.org/10.1038/s41586-018-0455-x",
+    "role": "primary"
+  },
+  {
+    "id": "browning-2018",
+    "citation": "Browning et al. 2018",
+    "year": 2018,
+    "title": "Analysis of human sequence data reveals two pulses of archaic Denisovan admixture",
+    "doi": "10.1016/j.cell.2018.02.031",
+    "url": "https://doi.org/10.1016/j.cell.2018.02.031",
+    "role": "primary"
+  },
+  {
+    "id": "chen-2019",
+    "citation": "Chen et al. 2019",
+    "year": 2019,
+    "title": "A late Middle Pleistocene Denisovan mandible from the Tibetan Plateau",
+    "doi": "10.1038/s41586-019-1139-x",
+    "url": "https://doi.org/10.1038/s41586-019-1139-x",
+    "role": "primary"
+  },
+  {
+    "id": "jacobs-2019",
+    "citation": "Jacobs et al. 2019",
+    "year": 2019,
+    "title": "Multiple deeply divergent Denisovan ancestries in Papuans",
+    "doi": "10.1016/j.cell.2019.02.035",
+    "url": "https://doi.org/10.1016/j.cell.2019.02.035",
+    "role": "primary"
+  },
+  {
+    "id": "zhang-2020",
+    "citation": "Zhang et al. 2020",
+    "year": 2020,
+    "title": "Denisovan DNA in Late Pleistocene sediments from Baishiya Karst Cave on the Tibetan Plateau",
+    "doi": "10.1126/science.abb6320",
+    "url": "https://doi.org/10.1126/science.abb6320",
+    "role": "primary"
+  },
+  {
+    "id": "ni-2021",
+    "citation": "Ni et al. 2021",
+    "year": 2021,
+    "title": "Massive cranium from Harbin in northeastern China establishes a new Middle Pleistocene human lineage",
+    "doi": "10.1016/j.xinn.2021.100130",
+    "url": "https://doi.org/10.1016/j.xinn.2021.100130",
+    "role": "primary"
+  },
+  {
+    "id": "larena-2021",
+    "citation": "Larena et al. 2021",
+    "year": 2021,
+    "title": "Philippine Ayta possess the highest level of Denisovan ancestry in the world",
+    "doi": "10.1016/j.cub.2021.07.022",
+    "url": "https://doi.org/10.1016/j.cub.2021.07.022",
+    "role": "primary"
+  },
+  {
+    "id": "teixeira-2021",
+    "citation": "Teixeira et al. 2021",
+    "year": 2021,
+    "title": "Widespread Denisovan ancestry in Island Southeast Asia but no evidence of substantial super-archaic hominin admixture",
+    "doi": "10.1038/s41559-021-01408-0",
+    "url": "https://doi.org/10.1038/s41559-021-01408-0",
+    "role": "primary"
+  },
+  {
+    "id": "demeter-2022",
+    "citation": "Demeter et al. 2022",
+    "year": 2022,
+    "title": "A Middle Pleistocene Denisovan molar from the Annamite Chain of northern Laos",
+    "doi": "10.1038/s41467-022-29923-z",
+    "url": "https://doi.org/10.1038/s41467-022-29923-z",
+    "role": "primary"
+  },
+  {
+    "id": "xia-2024",
+    "citation": "Xia et al. 2024",
+    "year": 2024,
+    "title": "Middle and Late Pleistocene Denisovan subsistence at Baishiya Karst Cave",
+    "doi": "10.1038/s41586-024-07612-9",
+    "url": "https://doi.org/10.1038/s41586-024-07612-9",
+    "role": "primary"
+  },
+  {
+    "id": "tsutaya-2025",
+    "citation": "Tsutaya et al. 2025",
+    "year": 2025,
+    "title": "A male Denisovan mandible from Pleistocene Taiwan",
+    "doi": "10.1126/science.ads3888",
+    "url": "https://doi.org/10.1126/science.ads3888",
+    "role": "primary"
+  },
+  {
+    "id": "fu-2025-proteome",
+    "citation": "Fu et al. 2025",
+    "year": 2025,
+    "title": "The proteome of the late Middle Pleistocene Harbin individual",
+    "doi": "10.1126/science.adu9677",
+    "url": "https://doi.org/10.1126/science.adu9677",
+    "role": "primary"
+  },
+  {
+    "id": "fu-2025-mtdna",
+    "citation": "Fu et al. 2025",
+    "year": 2025,
+    "title": "Denisovan mitochondrial DNA from dental calculus of the >146,000-year-old Harbin cranium",
+    "doi": "10.1016/j.cell.2025.05.040",
+    "url": "https://doi.org/10.1016/j.cell.2025.05.040",
+    "role": "primary"
+  },
+  {
+    "id": "rao-2026",
+    "citation": "Rao et al. 2026",
+    "year": 2026,
+    "title": "Ancient proteins identify various Denisovan remains from Southwest China",
+    "doi": "10.1038/s41586-026-10976-9",
+    "url": "https://doi.org/10.1038/s41586-026-10976-9",
+    "role": "primary"
+  }
+]

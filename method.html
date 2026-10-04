@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Method — Denisovan atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;560;650&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+  <body>
+    <article class="method">
+      <p class="eyebrow">How the atlas is built</p>
+      <h1>Method</h1>
+      <p><a href="./index.html">Back to the map</a></p>
+      <p>
+        The map is a display of primary papers. A stored row is something a paper reported about a named group or a named specimen. The country percentage is calculated from those rows. It is not itself a new estimate, and a review article never replaces it.
+      </p>
+
+      <h2>Country color</h2>
+      <p>
+        A country is colored only when at least one paper states an absolute Denisovan percentage for an indigenous group there, and states a sample size. The color is a sample-size-weighted mean of one preferred estimate from each independent sample.
+      </p>
+      <p>Gray means no such percentage is in the atlas. It does not mean zero, and it does not mean the group has been shown to have none.</p>
+      <p>These reports are kept on the panel and kept out of the color:</p>
+      <ul>
+        <li>A fraction of the New Guinea proportion, including the pD ratios in Reich et al. 2011. They are not multiplied by a New Guinea percentage.</li>
+        <li>Detected archaic sequence, whether in megabases or as a confidently called fraction of the genome. That quantity is smaller than total ancestry.</li>
+        <li>An upper or lower bound.</li>
+        <li>A model or an extrapolation, including Larena et al. 2021’s f4-ratio of 0.0447 for an ancestral Negrito population with no East Asian admixture.</li>
+        <li>A second analysis of the same people. Reich et al. 2010 and Meyer et al. 2012 share the Reich-lab Papuan comparison, so only Meyer’s Neanderthal-aware 3.0% ± 0.8 is weighted. The 4.8% and the TreeMix 6.0% stay visible.</li>
+        <li>An absolute percentage whose sample size the paper does not state. Qin and Stoneking 2015’s 3.4% figures are in this group.</li>
+      </ul>
+      <p>
+        If a paper publishes a percentage for each person, those people are averaged. This starter set does not contain a per-person table, so every weighted row is a population figure the paper already published. No individual values are invented.
+      </p>
+      <p>
+        Indonesia does not inherit a New Guinea percentage. Highland Papuan and Bougainville estimates stay on Papua New Guinea. Western Indonesian, Nusa Tenggara, and Moluccas groups keep the separate ratios Reich et al. 2011 published.
+      </p>
+      <p>
+        The range shown under a country is the span of absolute percentages in the papers, including ones left out of the weighted mean. For Papua New Guinea that span is wide because the papers do not all estimate the same quantity in the same way.
+      </p>
+
+      <h2>Fossil grades</h2>
+      <p><strong>Confirmed.</strong> The specimen itself has Denisovan nuclear or mitochondrial DNA, or palaeoproteomics the paper places with Denisovans. Sediment DNA is marked as sediment, not as a bone.</p>
+      <p><strong>Likely.</strong> The paper argues for a Denisovan attribution without Denisovan DNA or a Denisovan-specific protein. Tam Ngu Hao 2 is in this grade: the molar matches Xiahe morphologically, and its proteins identify <em>Homo</em> only.</p>
+      <p><strong>Possible.</strong> A primary paper proposes Denisovan affinity from morphology, and the biomolecular identification is still absent. Xujiayao and Xuchang are in this grade. <em>Homo luzonensis</em> is not on the map.</p>
+      <p>
+        Journal figures are not copied into the site. The Xiahe mandible links to the Max Planck Institute surface-scan download, which requires registration.
+      </p>
+
+      <h2>What this first corpus contains</h2>
+      <p>
+        Ancestry rows come from Reich et al. 2010 and 2011, Meyer et al. 2012, Qin and Stoneking 2015, Sankararaman et al. 2016, Malaspinas et al. 2016, Vernot et al. 2016, Larena et al. 2021, and Teixeira et al. 2021. Vernot et al. report 1.9–3.4% across Bismarck Archipelago locations; the location table is not replaced with a midpoint.
+      </p>
+      <p>
+        Jacobs et al. 2019 are cited because they show more than one Denisovan source in Papuans. They are not used as a new total percentage. Browning et al. 2018 are cited because they restate Reich’s figure of about 5% for Oceania. That restatement is a check, and it disagrees with the weighted Papua New Guinea figure, which prefers later estimates from samples that can be separated.
+      </p>
+      <p>
+        Choin et al. 2021 describe differences in Denisovan heritage across the Pacific. A total percentage for each named group was not extracted from that paper in this pass, so it does not color a country.
+      </p>
+
+      <h2>Checks</h2>
+      <p>
+        Each colored country, and several uncolored ones, has a note comparing the display with another published summary. A discrepancy adds that note. It does not change the number.
+      </p>
+    </article>
+    <script type="module" src="/src/method.ts"></script>
+  </body>
+</html>
